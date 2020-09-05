@@ -1,12 +1,12 @@
 import React from "react";
-import { Nav, NavContainer} from "./Navbar.elements";
+import { Nav, NavContainer, NavLogo, NavIcon } from "./Navbar.elements";
 
 const Navbar = () => {
   return (
     <>
       <Nav>
         <NavContainer>
-CYBERTRUCK FANPAGE
+          <NavLogo to="/"><NavIcon/>CYBERTRUCK FANPAGE </NavLogo>
         </NavContainer>
       </Nav>
     </>
