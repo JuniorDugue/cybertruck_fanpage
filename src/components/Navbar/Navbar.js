@@ -1,10 +1,14 @@
 import React from "react";
-import { Nav } from "./Navbar.elements";
+import { Nav, NavContainer} from "./Navbar.elements";
 
 const Navbar = () => {
   return (
     <>
-      <Nav>CyberTruck Fanpage</Nav>
+      <Nav>
+        <NavContainer>
+CYBERTRUCK FANPAGE
+        </NavContainer>
+      </Nav>
     </>
   );
 };
