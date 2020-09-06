@@ -1,6 +1,7 @@
 # cybertruck_fanpage
 
 ![landing page](assets/cybertruckfanpage.jpg)
+design made in adobe xd
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
