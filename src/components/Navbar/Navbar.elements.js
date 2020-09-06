@@ -79,7 +79,7 @@ export const NavItem = styled.li`
   display: flex;
 
   &:hover {
-    border-bottom: 2px solid #0FD2D8;
+    border-bottom: 2px solid #0fd2d8;
   }
 
   @media screen and (max-width: 768px) {
@@ -99,15 +99,37 @@ export const NavLinks = styled(Link)`
   padding: 0.5rem 1rem;
   height: 100%auto;
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     text-align: center;
     padding: 2rem;
     width: 100%;
     display: table;
 
     &:hover {
-      color: #4b59f7;
+      color: #0fd2d8;
       transition: all 0.3s ease;
     }
   }
-`
+`;
+
+export const NavItemBtn = styled.li`
+  @media screen and (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+  }
+`;
+
+export const NavBtnLink = styled(Link)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+`;
