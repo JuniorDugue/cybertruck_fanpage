@@ -12,7 +12,7 @@ const Navbar = () => {
   const handleClick = () => setClick(!click);
 
   const showButton = () => {
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth <= 800) {
       setButton(false);
     } else {
       setButton(true);
@@ -54,9 +54,6 @@ const Navbar = () => {
                 <NavLinks to="/contact">Contact</NavLinks>
               </NavItem>
 
-              <NavItem>
-                <NavLinks to="/ordernow">Order Now</NavLinks>
-              </NavItem>
               <NavItemBtn>
                 {button ? (
                   <NavBtnLink to="/ordernow">

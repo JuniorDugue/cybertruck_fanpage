@@ -41,7 +41,7 @@ export const NavIcon = styled(SiTesla)`
 export const MobileIcon = styled.div`
   display: none;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     display: block;
     position: absolute;
     top: 0;
@@ -58,7 +58,7 @@ export const NavMenu = styled.ul`
   text-align: center;
   /* border: 1px solid red; */
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -82,7 +82,7 @@ export const NavItem = styled.li`
     border-bottom: 2px solid #0fd2d8;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     width: 100%;
 
     &:hover {
@@ -99,7 +99,7 @@ export const NavLinks = styled(Link)`
   padding: 0.5rem 1rem;
   height: 100%auto;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     text-align: center;
     padding: 2rem;
     width: 100%;
@@ -113,7 +113,7 @@ export const NavLinks = styled(Link)`
 `;
 
 export const NavItemBtn = styled.li`
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     display: flex;
     justify-content: center;
     align-items: center;

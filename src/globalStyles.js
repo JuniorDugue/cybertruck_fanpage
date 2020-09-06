@@ -21,7 +21,7 @@ export const Container = styled.div`
   margin: 0 auto;
   padding: 0 50px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     padding: 0 30px;
   }
 `;
@@ -43,7 +43,7 @@ export const Button = styled.button`
     background: ${({ primary }) => (primary ? "#121014" : "#0fd2d8")};
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     width: 100%;
   }
 `;
