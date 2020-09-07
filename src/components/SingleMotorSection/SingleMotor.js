@@ -1,9 +1,10 @@
 import React from "react";
+import { SingleSec } from "./SingleMotor.elements";
 
-const SingleMotor = () => {
+const SingleMotor = ({lightBg}) => {
   return (
     <>
-      <h2>Single Motor RWD</h2>
+      <SingleSec lightBg={lightBg}>Single Motor RWD</SingleSec>
     </>
   );
 };
