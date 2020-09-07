@@ -1,20 +1,25 @@
 import React from "react";
-import { HomeSec, HomeRow, HomeColumn, TextWrapper } from "./HomeArea.elements";
+import { HomeBg, HomeSec, HomeRow, HomeColumn, TextWrapper, HomeContent, CTAbutton } from "./HomeArea.elements";
 import { Container } from "../../globalStyles";
 
 const HomeArea = (lightBg, imgStart) => {
   return (
     <>
       <HomeSec lightBg={lightBg}>
-        <Container>
-          <HomeRow imgStart={imgStart}>
-            <HomeColumn>
-              <TextWrapper>
-                <h2>Better Utility than a truck with more performance then a sports car</h2>
-              </TextWrapper>
-            </HomeColumn>
-          </HomeRow>
-        </Container>{" "}
+        <HomeBg>
+          <Container>
+            <HomeRow imgStart={imgStart}>
+              <HomeColumn>
+                <HomeContent>
+                  <TextWrapper>
+                    <h2>Better Utility than a truck with more performance then a sports car</h2>
+                  </TextWrapper>
+                  <CTAbutton>Learn More</CTAbutton>
+                </HomeContent>
+              </HomeColumn>
+            </HomeRow>
+          </Container>{" "}
+        </HomeBg>
       </HomeSec>
     </>
   );
