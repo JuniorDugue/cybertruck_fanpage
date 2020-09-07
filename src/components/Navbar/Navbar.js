@@ -5,6 +5,7 @@ import { Nav, NavContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavItem, NavL
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 
+
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -71,6 +72,7 @@ const Navbar = () => {
           </NavContainer>
         </Nav>
       </IconContext.Provider>
+   
     </>
   );
 };

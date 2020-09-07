@@ -32,6 +32,10 @@ export const NavLogo = styled(Link)`
   font-size: 2rem;
   align-items: center;
   /* padding-top: 20px; */
+
+  &:hover {
+    color: #0fd2d8;
+  }
 `;
 
 export const NavIcon = styled(SiTesla)`
