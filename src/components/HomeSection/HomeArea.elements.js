@@ -43,6 +43,10 @@ export const HomeContent = styled.div`
   flex-direction: column;
   width: 50%;
   align-items: center;
+
+  @media screen and (min-width: 400px) {
+    width: 100%;
+  }
 `;
 
 export const TextWrapper = styled.div`
@@ -75,4 +79,9 @@ export const CTAbutton = styled.button`
     border: 5px solid #0fd2d8;
     transition: all 0.3s ease;
   }
+
+  @media screen and (min-width: 400px) {
+    width: 100%;
+    padding: 10px 20px;
+}
 `;
