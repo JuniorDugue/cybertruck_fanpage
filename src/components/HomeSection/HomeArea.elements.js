@@ -46,6 +46,7 @@ export const HomeContent = styled.div`
 
   @media screen and (min-width: 400px) {
     width: 100%;
+    margin: 0 auto;
   }
 `;
 
@@ -83,5 +84,6 @@ export const CTAbutton = styled.button`
   @media screen and (min-width: 400px) {
     width: 100%;
     padding: 10px 20px;
-}
+    text-align: center;
+  }
 `;
