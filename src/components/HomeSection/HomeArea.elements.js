@@ -16,6 +16,7 @@ export const HomeBg = styled.div`
 
 export const HomeRow = styled.div`
   display: flex;
+  padding: 168px 0 0 0;
   margin: 0 -15px -15px -15px;
   flex-wrap: wrap;
   align-items: center;
@@ -38,7 +39,7 @@ export const HomeColumn = styled.div`
 `;
 
 export const HomeContent = styled.div`
-  padding: 168px 0 0 0;
+  /* padding: 168px 0 0 0; */
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -86,4 +87,14 @@ export const CTAbutton = styled.button`
     padding: 10px 20px;
     text-align: center;
   }
+`;
+
+export const YoutubePreview = styled.div`
+  /* padding: 0 200px 0 0; */
+  width: 500px;
+  height: 500px;
+`;
+
+export const ParentColumn = styled.div`
+  display: flex;
 `;
